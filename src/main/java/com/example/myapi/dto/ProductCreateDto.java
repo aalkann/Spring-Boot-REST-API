@@ -2,8 +2,6 @@ package com.example.myapi.dto;
 
 // Separating Update and Create dto class is best practice
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -13,7 +11,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 @Data
 @AllArgsConstructor
